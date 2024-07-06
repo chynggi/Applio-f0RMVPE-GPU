@@ -128,7 +128,7 @@
   "Protect Voiceless Consonants": "Protect Voiceless Consonants",
   "Safeguard distinct consonants and breathing sounds to prevent electro-acoustic tearing and other artifacts. Pulling the parameter to its maximum value of 0.5 offers comprehensive protection. However, reducing this value might decrease the extent of protection while potentially mitigating the indexing effect.": "Safeguard distinct consonants and breathing sounds to prevent electro-acoustic tearing and other artifacts. Pulling the parameter to its maximum value of 0.5 offers comprehensive protection. However, reducing this value might decrease the extent of protection while potentially mitigating the indexing effect.",
   "Pitch extraction algorithm": "Pitch extraction algorithm",
-  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.",
+  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases. In this fork, rmvpe is forced to be used as the gpu, so it is recommended to lower the number of cpu cores to 2 or less.",
 
   "Convert": "Convert",
   "Export Audio": "Export Audio",

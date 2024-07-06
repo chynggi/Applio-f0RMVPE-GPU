@@ -102,7 +102,7 @@
   "Protect Voiceless Consonants": "حماية الحروف الساكنة التي لا صوت لها",
   "Safeguard distinct consonants and breathing sounds to prevent electro-acoustic tearing and other artifacts. Pulling the parameter to its maximum value of 0.5 offers comprehensive protection. However, reducing this value might decrease the extent of protection while potentially mitigating the indexing effect.": "حماية الحروف الساكنة المميزة وأصوات التنفس لمنع التمزق الصوتي الكهربائي والتحف الأخرى. يوفر سحب المعلمة إلى قيمتها القصوى البالغة 0.5 حماية شاملة. ومع ذلك ، قد يؤدي تقليل هذه القيمة إلى تقليل مدى الحماية مع احتمال التخفيف من تأثير الفهرسة.",
   "Pitch extraction algorithm": "خوارزمية استخراج الملعب",
-  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "خوارزمية استخراج الملعب لاستخدامها في تحويل الصوت. الخوارزمية الافتراضية هي rmvpe ، والتي يوصى بها في معظم الحالات.",
+  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "خوارزمية استخراج الملعب لاستخدامها في تحويل الصوت. الخوارزمية الافتراضية هي rmvpe ، والتي يوصى بها في معظم الحالات. في هذه الشوكة، يُجبر rmvpe على استخدامه كوحدة معالجة الرسومات، لذلك يوصى بتقليل عدد نوى وحدة المعالجة المركزية إلى 2 أو أقل.",
   "Convert": "حول",
   "Export Audio": "تصدير الصوت",
   "Batch": "الدفعه",

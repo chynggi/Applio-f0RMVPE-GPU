@@ -102,7 +102,7 @@
   "Protect Voiceless Consonants": "무성 자음 보호",
   "Safeguard distinct consonants and breathing sounds to prevent electro-acoustic tearing and other artifacts. Pulling the parameter to its maximum value of 0.5 offers comprehensive protection. However, reducing this value might decrease the extent of protection while potentially mitigating the indexing effect.": "뚜렷한 자음과 숨소리를 보호하여 전자 음향 찢어짐 및 기타 아티팩트를 방지합니다. 설정값을 최대치인 0.5로 끌어오면 포괄적인 보호가 제공됩니다. 반대로 보호 범위를 낮출 경우 인덱싱 효과를 완화할 수 있습니다",
   "Pitch extraction algorithm": "음정(Pitch) 추출 알고리즘",
-  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "오디오 변환에 사용할 음정 추출 알고리즘입니다. 디폴트 알고리즘은 rmvpe이며, 대부분의 경우에 권장됩니다.",
+  "Pitch extraction algorithm to use for the audio conversion. The default algorithm is rmvpe, which is recommended for most cases.": "오디오 변환에 사용할 음정 추출 알고리즘입니다. 디폴트 알고리즘은 rmvpe이며, 대부분의 경우에 권장됩니다. 본 포크에서는 rmvpe가 gpu로 강제 사용되며, 따라서 cpu 코어 수를 2 이하로 낮추는 것을 권장드립니다.",
   "Convert": "변환",
   "Export Audio": "오디오 내보내기",
   "Batch": "일괄",
