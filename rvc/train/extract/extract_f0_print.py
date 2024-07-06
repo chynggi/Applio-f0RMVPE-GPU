@@ -124,8 +124,8 @@ class FeatureInput:
     def get_rmvpe(self, x):
         model_rmvpe = RMVPE0Predictor(
             os.path.join("rvc", "models", "predictors", "rmvpe.pt"),
-            is_half=False,
-            device="cpu",
+            is_half=True,
+            device="cuda",
         )
         return model_rmvpe.infer_from_audio(x, thred=0.03)
 
